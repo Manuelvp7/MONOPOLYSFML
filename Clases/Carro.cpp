@@ -17,9 +17,11 @@ Carro::Carro(char * carImage, int member){
     if (this->texturaCarro->loadFromFile(carImage, sf::IntRect(0, 0, 2000, 2000))){
         this->texturaCarro->setSmooth(true);
         this->spriteCarro->setTexture(*this->texturaCarro);
+        this->spriteCarro->setOrigin(sf::Vector2f(1000.f, 1000.f));
         this->spriteCarro->scale(sf::Vector2f(0.04,0.04));
-        this->spriteCarro->setPosition(sf::Vector2f(620.f, 670.f+member));
-        this->spriteCarro->rotate(-90.f);          
+        this->spriteCarro->setPosition(sf::Vector2f(650.f, 630.f+member));
+        this->spriteCarro->rotate(-90.f); 
+       
     }
 
 }

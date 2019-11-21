@@ -6,6 +6,7 @@
 #include <string.h>
 #include "Carro.h"
 #include "Tablero.h"
+#include "ComunityCard.h"
 
 
 class Monopoly{
@@ -16,12 +17,17 @@ class Monopoly{
 		Carro * getCarros();
 		void initWindow();
 		void run();
+		void initFichas();
+		void initCommunityChest();
+		void initChances();
 
 		
 	private:
 		sf::RenderWindow * window;
 		Tablero * tablero;
 		Carro * carros;
+		ComunityCard * chest;
+		ComunityCard * chances;
 
 
 };
