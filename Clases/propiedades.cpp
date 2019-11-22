@@ -1,4 +1,4 @@
-#include "Game_Board.h"
+#include "propiedades.h"
 #include <cmath>
 #include <iostream>
 
