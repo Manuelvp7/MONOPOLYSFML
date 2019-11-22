@@ -3,7 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include <string.h>
 #include "space.h"
-#include "move_action"
+#include "move_action.h"
 #include "player.h"
 
 class Propiedades{
