@@ -37,7 +37,7 @@ void Monopoly::movedice(){
 	
 }
 
-/*
+
 	void Tablero::move(int numPlayer, int amountInput){
 	movement.move_amount(&(players[numPlayer]), amountInput);
 }
@@ -464,4 +464,3 @@ void Tablero::displayVertical(int firstSpace, int lastSpace, int numPlayers){
 	cout << "|" << endl;
 
 }
-*/
