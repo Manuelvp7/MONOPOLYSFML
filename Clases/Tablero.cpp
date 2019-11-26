@@ -1,4 +1,5 @@
 #include "Tablero.h"
+#include "dice.h"
 #include <string.h>
 
 Tablero::Tablero(){
@@ -17,6 +18,23 @@ Tablero::Tablero(){
 
 sf::Sprite * Tablero::getSpriteTablero(){
     return this->spriteTablero;
+}
+
+void Monopoly::movedice(){
+    Dice dice[2];
+    
+    int diceRoll1;
+    int diceRoll2;
+    	
+    diceRoll1 = dice[0].rollDice();
+	diceRoll2 = dice[1].rollDice();
+	cout << "Te moviste " << diceRoll1 + diceRoll2 << " lugares." << endl << endl;
+	int pastLocation = Tablero.getPlayerLocation(i);
+	Tablero.move(i, diceRoll1 + diceRoll2);
+	int currentLocation = Tablero.getPlayerLocation(i);
+	int currentOwnership = Tablero.getSpaceOwnership(currentLocation);
+	int futureLocation = 0;
+	
 }
 
 /*
