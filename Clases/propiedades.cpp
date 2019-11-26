@@ -19,7 +19,7 @@ Propiedades::Propiedades(){
 	spaces[0].setActionText("Pass Go! ", "Get $200 ");
 
 	//Space 1
-	spaces[1].setName("  Dorm   ", "  Room   ");
+	spaces[1].setName("Mediterranean ", "Avenue");
 	spaces[1].setType("Property");
 	spaces[1].setPropertyCost(60);
 	spaces[1].setFreeParking(0);
@@ -31,7 +31,7 @@ Propiedades::Propiedades(){
 	spaces[1].setActionText("         ", "   $60   ");
 
 	//Space 2
-	spaces[2].setName("Community", "  Chest  ");
+	spaces[2].setName("Community ", "Chest  ");
 	spaces[2].setType("Community Chest");
 	spaces[2].setPropertyCost(0);
 	spaces[2].setFreeParking(0);
@@ -43,9 +43,9 @@ Propiedades::Propiedades(){
 	spaces[2].setActionText(" Draw a  " ,"  Card   ");
 
 	//Space 3
-	spaces[3].setName(" Leavey  ", " Library ");
+	spaces[3].setName("Baltic ", "Avenue");
 	spaces[3].setType("Property");
-	spaces[3].setPropertyCost(70);
+	spaces[3].setPropertyCost(60);
 	spaces[3].setFreeParking(0);
 	spaces[3].setOccupied(false);
 	spaces[3].setOwnership(-1);
@@ -56,9 +56,9 @@ Propiedades::Propiedades(){
 	
 
 	//Space 4
-	spaces[4].setName(" College ", " Tuition ");
+	spaces[4].setName("Income ", "Tax");
 	spaces[4].setType("Tax");
-	spaces[4].setPropertyCost(70);
+	spaces[4].setPropertyCost(0);
 	spaces[4].setFreeParking(0);
 	spaces[4].setOccupied(false);
 	spaces[4].setOwnership(-1);
@@ -68,7 +68,7 @@ Propiedades::Propiedades(){
 	spaces[4].setActionText("         ", "Pay $200 ");
 
 	//Space 5
-	spaces[5].setName(" Campus  ", " Cruiser ");
+	spaces[5].setName("Reading ", "Railroad");
 	spaces[5].setType("RailRoad");
 	spaces[5].setPropertyCost(200);
 	spaces[5].setFreeParking(0);
@@ -80,7 +80,7 @@ Propiedades::Propiedades(){
 	spaces[5].setActionText("         ", "  $200   ");
 
 	//Space 6
-	spaces[6].setName(" Trojan  ", "  Hall   ");
+	spaces[6].setName("Oriental ", "Avenue");
 	spaces[6].setType("Property");
 	spaces[6].setPropertyCost(100);
 	spaces[6].setFreeParking(0);
@@ -104,7 +104,7 @@ Propiedades::Propiedades(){
 	spaces[7].setActionText(" Draw a  ", "  card   ");
 
 	//Space 8
-	spaces[8].setName("  Marks  ", "  Tower  ");
+	spaces[8].setName("Vermont ", "Avenue");
 	spaces[8].setType("Property");
 	spaces[8].setPropertyCost(100);
 	spaces[8].setFreeParking(0);
@@ -116,7 +116,7 @@ Propiedades::Propiedades(){
 	spaces[8].setActionText("         ", "  $100   ");
 
 	//Space 9
-	spaces[9].setName(" Pardee  ", " Tower   ");
+	spaces[9].setName("Connecticut ", "Avenue");
 	spaces[9].setType("Property");
 	spaces[9].setPropertyCost(120);
 	spaces[9].setFreeParking(0);
@@ -129,7 +129,7 @@ Propiedades::Propiedades(){
 
 
 	//Space 10
-	spaces[10].setName(" SJACS!  ", "         ");
+	spaces[10].setName("Jail ", "         ");
 	spaces[10].setType("Jail");
 	spaces[10].setPropertyCost(0);
 	spaces[10].setFreeParking(0);
@@ -141,7 +141,7 @@ Propiedades::Propiedades(){
 	spaces[10].setActionText("  Just   ", "Visiting ");
 
 	//Space 11
-	spaces[11].setName(" Silent  ", " Chapel  ");
+	spaces[11].setName("St. Charles ", "Place ");
 	spaces[11].setType("Property");
 	spaces[11].setPropertyCost(140);
 	spaces[11].setFreeParking(0);
@@ -153,7 +153,7 @@ Propiedades::Propiedades(){
 	spaces[11].setActionText("         ", "  $140   ");
 
 	//Space 12
-	spaces[12].setName("Bathroom ", "Janitors ");
+	spaces[12].setName("Electric ", "Company");
 	spaces[12].setType("Utility");
 	spaces[12].setPropertyCost(150);
 	spaces[12].setFreeParking(0);
@@ -166,7 +166,7 @@ Propiedades::Propiedades(){
 
 
 	//Space 13
-	spaces[13].setName("McCarthy ", "  Quad   ");
+	spaces[13].setName("States ", "Avenue");
 	spaces[13].setType("Property");
 	spaces[13].setPropertyCost(140);
 	spaces[13].setFreeParking(0);
@@ -178,7 +178,7 @@ Propiedades::Propiedades(){
 	spaces[13].setActionText("         ", "  $140   ");
 
 	//Space 14
-	spaces[14].setName(" Alumni  ", " House   ");
+	spaces[14].setName("Virginia ", "Avenue");
 	spaces[14].setType("Property");
 	spaces[14].setPropertyCost(160);
 	spaces[14].setFreeParking(0);
@@ -190,7 +190,7 @@ Propiedades::Propiedades(){
 	spaces[14].setActionText("         ", "  $160   ");
 
 	//Space 15
-	spaces[15].setName("LA Metro ", "         ");
+	spaces[15].setName("Pensylvania ", "Railroad");
 	spaces[15].setType("RailRoad");
 	spaces[15].setPropertyCost(200);
 	spaces[15].setFreeParking(0);
@@ -202,7 +202,7 @@ Propiedades::Propiedades(){
 	spaces[15].setActionText("         ", "  $200   ");
 
 	//Space 16
-	spaces[16].setName("  Fluor  ", "  Tower  ");
+	spaces[16].setName("St. James ", "Place");
 	spaces[16].setType("Property");
 	spaces[16].setPropertyCost(180);
 	spaces[16].setFreeParking(0);
@@ -226,7 +226,7 @@ Propiedades::Propiedades(){
 	spaces[17].setActionText(" Draw a  ", "  Card   ");
 
 	//Space 18
-	spaces[18].setName("  Webb   ", "  Tower  ");
+	spaces[18].setName("Tennessee ", "Avenue");
 	spaces[18].setType("Property");
 	spaces[18].setPropertyCost(180);
 	spaces[18].setFreeParking(0);
@@ -238,7 +238,7 @@ Propiedades::Propiedades(){
 	spaces[18].setActionText("         ", "  $180   ");
 
 	//Space 19
-	spaces[19].setName("  Lyon   ", " Center  ");
+	spaces[19].setName("New York ", "Avenue");
 	spaces[19].setType("Property");
 	spaces[19].setPropertyCost(200);
 	spaces[19].setFreeParking(0);
@@ -250,7 +250,7 @@ Propiedades::Propiedades(){
 	spaces[19].setActionText("         ", "  $200   ");
 
 	//Space 20
-	spaces[20].setName("Financial", "   Aid   ");
+	spaces[20].setName("Free ", "Parking");
 	spaces[20].setType("FreeParking");
 	spaces[20].setPropertyCost(0);
 	spaces[20].setFreeParking(0);
@@ -262,7 +262,7 @@ Propiedades::Propiedades(){
 	spaces[20].setActionText("         ", "         ");
 
 	//Space 21
-	spaces[21].setName(" George  ", "Tirebiter");
+	spaces[21].setName("Kentucky ", "Avenue");
 	spaces[21].setType("Property");
 	spaces[21].setPropertyCost(220);
 	spaces[21].setFreeParking(0);
@@ -286,7 +286,7 @@ Propiedades::Propiedades(){
 	spaces[22].setActionText(" Draw a  ", "  Card   ");
 
 	//Space 23
-	spaces[23].setName("Traveller", " Statue  ");
+	spaces[23].setName("Indiana ", "Avenue");
 	spaces[23].setType("Property");
 	spaces[23].setPropertyCost(220);
 	spaces[23].setFreeParking(0);
@@ -298,7 +298,7 @@ Propiedades::Propiedades(){
 	spaces[23].setActionText("         ", "  $220   ");
 
 	//Space 24
-	spaces[24].setName("Knight's ", " Bench   ");
+	spaces[24].setName("Illinois ", "Avenue");
 	spaces[24].setType("Property");
 	spaces[24].setPropertyCost(240);
 	spaces[24].setFreeParking(0);
@@ -310,7 +310,7 @@ Propiedades::Propiedades(){
 	spaces[24].setActionText("         ", "  $240   ");
 
 	//Space 25
-	spaces[25].setName("Lyft App ", "         ");
+	spaces[25].setName("B. & O. ", "Railroad");
 	spaces[25].setType("RailRoad");
 	spaces[25].setPropertyCost(200);
 	spaces[25].setFreeParking(0);
@@ -322,7 +322,7 @@ Propiedades::Propiedades(){
 	spaces[25].setActionText("         ", "  $200   ");
 
 	//Space 26
-	spaces[26].setName("Cromwell ", "  Field  ");
+	spaces[26].setName("Atlantic ", "Avenue");
 	spaces[26].setType("Property");
 	spaces[26].setPropertyCost(260);
 	spaces[26].setFreeParking(0);
@@ -334,7 +334,7 @@ Propiedades::Propiedades(){
 	spaces[26].setActionText("         ", "  $260   ");
 
 	//Space 27
-	spaces[27].setName(" V.K.C.  ", "Carillon ");
+	spaces[27].setName("Ventnor ", "Avenue");
 	spaces[27].setType("Property");
 	spaces[27].setPropertyCost(260);
 	spaces[27].setFreeParking(0);
@@ -346,7 +346,7 @@ Propiedades::Propiedades(){
 	spaces[27].setActionText("         ", "  $260   ");
 
 	//Space 28
-	spaces[28].setName(" Laundry ", " Company ");
+	spaces[28].setName("Water ", "Works");
 	spaces[28].setType("Utility");
 	spaces[28].setPropertyCost(150);
 	spaces[28].setFreeParking(0);
@@ -358,7 +358,7 @@ Propiedades::Propiedades(){
 	spaces[28].setActionText("         ", "  $150   ");
 
 	//Space 29
-	spaces[29].setName(" Gallen  ", " Center  ");
+	spaces[29].setName("Marvin ", "Gardens");
 	spaces[29].setType("Property");
 	spaces[29].setPropertyCost(280);
 	spaces[29].setFreeParking(0);
@@ -370,7 +370,7 @@ Propiedades::Propiedades(){
 	spaces[29].setActionText("         ", "  $280   ");
 
 	//Space 30
-	spaces[30].setName("Caught by", " D.P.S.  ");
+	spaces[30].setName("Go to ", "Jail");
 	spaces[30].setType("GoJail");
 	spaces[30].setPropertyCost(0);
 	spaces[30].setFreeParking(0);
@@ -382,7 +382,7 @@ Propiedades::Propiedades(){
 	spaces[30].setActionText("         ", "         ");
 
 	//Space 31
-	spaces[31].setName("Heritage ", "  Hall   ");
+	spaces[31].setName("Pacific ", "Avenue");
 	spaces[31].setType("Property");
 	spaces[31].setPropertyCost(300);
 	spaces[31].setFreeParking(0);
@@ -394,7 +394,7 @@ Propiedades::Propiedades(){
 	spaces[31].setActionText("         ", "  $300   ");
 
 	//Space 32
-	spaces[32].setName("  McKay  ", " Center  ");
+	spaces[32].setName("North Carolina ", "Avenue");
 	spaces[32].setType("Property");
 	spaces[32].setPropertyCost(300);
 	spaces[32].setFreeParking(0);
@@ -418,7 +418,7 @@ Propiedades::Propiedades(){
 	spaces[33].setActionText(" Draw a  ", "  Card   ");
 
 	//Space 34
-	spaces[34].setName(" Bovard  ", " Stage   ");
+	spaces[34].setName("Pensylvania ", "Avenue");
 	spaces[34].setType("Property");
 	spaces[34].setPropertyCost(320);
 	spaces[34].setFreeParking(0);
@@ -430,7 +430,7 @@ Propiedades::Propiedades(){
 	spaces[34].setActionText("         ", "  $320   ");
 
 	//Space 35
-	spaces[35].setName("   USC   ", " Shuttle ");
+	spaces[35].setName("Short ", "Line");
 	spaces[35].setType("RailRoad");
 	spaces[35].setPropertyCost(200);
 	spaces[35].setFreeParking(0);
@@ -454,7 +454,7 @@ Propiedades::Propiedades(){
 	spaces[36].setActionText(" Draw a  ", "  Card   ");
 
 	//Space 37
-	spaces[37].setName(" Trojan  ", " Shrine  ");
+	spaces[37].setName("Park ", "Place");
 	spaces[37].setType("Property");
 	spaces[37].setPropertyCost(350);
 	spaces[37].setFreeParking(0);
@@ -466,7 +466,7 @@ Propiedades::Propiedades(){
 	spaces[37].setActionText("         ", "  $350   ");
 
 	//Space 38
-	spaces[38].setName("Textbook ", "  Fees   "); 
+	spaces[38].setName("Luxury ", "Tax"); 
 	spaces[38].setType("Tax");
 	spaces[38].setPropertyCost(0);
 	spaces[38].setFreeParking(0);
@@ -474,11 +474,11 @@ Propiedades::Propiedades(){
 	spaces[38].setOwnership(-1);
 	spaces[38].setMortgaged(false);
 	spaces[38].setRent(0);
-	spaces[38].setTax(75);
-	spaces[38].setActionText("         ", " Pay $75 ");
+	spaces[38].setTax(100);
+	spaces[38].setActionText("         ", " Pay $100 ");
 
 	//Space 39
-	spaces[39].setName("Football ", "Coliseum ");
+	spaces[39].setName("Boardwalk ", "         ");
 	spaces[39].setType("Property");
 	spaces[39].setPropertyCost(400);
 	spaces[39].setFreeParking(0);
