@@ -11,7 +11,9 @@ class Tablero{
 		
 		Tablero();
 		sf::Sprite * getSpriteTablero();
-		/*
+		void movedice();
+
+		
 		void displayHorizontal(int firstSpace, int lastSpace, int numPlayers);
 	    void displayVertical(int firstSpace, int lastSpace, int numPlayers);
 	    void createPlayers(int numPlayers);
@@ -37,15 +39,15 @@ class Tablero{
 	    bool isPlayerAlive(int playerNum);
 	    void playerLost(int playerNum);
 	    
-		*/
+		
 		
 	private:
 		//sf::RenderWindow window;
     	sf::Texture * texturaTbalero;
     	sf::Sprite * spriteTablero;
-    	/*
+    	
 		Space spaces[40];
 		Player * players;
 		MoveAction movement;
-    	*/
+    	
 };
