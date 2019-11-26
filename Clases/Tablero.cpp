@@ -20,88 +20,88 @@ sf::Sprite * Tablero::getSpriteTablero(){
 }
 
 /*
-	void Game_Board::move(int numPlayer, int amountInput){
+	void Tablero::move(int numPlayer, int amountInput){
 	movement.move_amount(&(players[numPlayer]), amountInput);
 }
 
-void Game_Board::createPlayers(int numPlayers){
+void Tablero::createPlayers(int numPlayers){
 	players = new Player[numPlayers];
 }
 
-void Game_Board::setPlayerName(int playerNum, string inputName){
+void Tablero::setPlayerName(int playerNum, string inputName){
 	players[playerNum].setPlayerName(inputName);
 }
 
-void Game_Board::setGamePiece(int playerNum, string inputPiece){
+void Tablero::setGamePiece(int playerNum, string inputPiece){
 	players[playerNum].setGamePieceName(inputPiece);
 }
 
-string Game_Board::getPlayerName(int playerNum){
+string Tablero::getPlayerName(int playerNum){
 	return players[playerNum].getPlayerName();
 }
 
-string Game_Board::getGamePiece(int playerNum){
+string Tablero::getGamePiece(int playerNum){
 	return players[playerNum].getGamePieceName();
 }
 
-Player* Game_Board::getPlayer(int num){
+Player* Tablero::getPlayer(int num){
 	return &players[num];
 }
 
-int Game_Board::getPlayerLocation(int playerNum){
+int Tablero::getPlayerLocation(int playerNum){
 	return players[playerNum].getLocation();
 }
 
-int Game_Board::getPlayerMoney(int playerNum){
+int Tablero::getPlayerMoney(int playerNum){
 	return players[playerNum].getMoneyAmount();
 }
 
-string Game_Board::spaceType(int inputIndex){
+string Tablero::spaceType(int inputIndex){
 	return spaces[inputIndex].getType();
 }
 
-int Game_Board::getSpaceOwnership(int spaceIndex){
+int Tablero::getSpaceOwnership(int spaceIndex){
 	return spaces[spaceIndex].getOwnership();
 }
 
-int Game_Board::getSpacePropertyCost(int spaceIndex){
+int Tablero::getSpacePropertyCost(int spaceIndex){
 	return spaces[spaceIndex].getPropertyCost();
 }
 
-void Game_Board::setSpaceOwnership(int spaceIndex, int playerNum){
+void Tablero::setSpaceOwnership(int spaceIndex, int playerNum){
 	spaces[spaceIndex].setOwnership(playerNum);
 }
 
-int Game_Board::getSpaceRent(int spaceIndex){
+int Tablero::getSpaceRent(int spaceIndex){
 	return spaces[spaceIndex].getRent();
 }
 
-int Game_Board::getSpaceTax(int spaceIndex){
+int Tablero::getSpaceTax(int spaceIndex){
 	return spaces[spaceIndex].getTax();
 }
 
-int Game_Board::getSpaceFreeParking(int spaceIndex){
+int Tablero::getSpaceFreeParking(int spaceIndex){
 	return spaces[spaceIndex].getFreeParking();
 }
 
-string Game_Board::getSpaceName(int spaceIndex, int index){
+string Tablero::getSpaceName(int spaceIndex, int index){
 	return spaces[spaceIndex].getName(index);
 }
 
-void Game_Board::upgradeSpace(int spaceNum){
+void Tablero::upgradeSpace(int spaceNum){
 	spaces[spaceNum].upgrade();
 }
 
-bool Game_Board::isPlayerAlive(int playerNum){
+bool Tablero::isPlayerAlive(int playerNum){
 	return players[playerNum].isAlive();
 }
 
-void Game_Board::playerLost(int playerNum){
+void Tablero::playerLost(int playerNum){
 	players[playerNum].reset();
 }
 
 //Display Game Board
-void Game_Board::displayHorizontal(int firstSpace, int lastSpace, int numPlayers){
+void Tablero::displayHorizontal(int firstSpace, int lastSpace, int numPlayers){
 
 	int numSpaces = abs(lastSpace - firstSpace) + 1;
 
@@ -263,7 +263,7 @@ void Game_Board::displayHorizontal(int firstSpace, int lastSpace, int numPlayers
 	cout << "-" << endl;
 }
 
-void Game_Board::displayVertical(int firstSpace, int lastSpace, int numPlayers){
+void Tablero::displayVertical(int firstSpace, int lastSpace, int numPlayers){
 
 	Space current = spaces[firstSpace];
 	Space current2 = spaces[lastSpace];
